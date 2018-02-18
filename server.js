@@ -4,7 +4,7 @@ const PORT = 3000;
 
 const app = express();
 app.get('/', function(req,res){
-  res.send('hello world');
+  res.sendFile('/index.html');
 })
 
 app.use('/public', express.static('public'));
