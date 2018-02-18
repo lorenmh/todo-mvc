@@ -1,10 +1,11 @@
 const express = require('express');
 
-const PORT = 3000;
+const PORT = 3000,
+  CWD = process.cwd();
 
 const app = express();
 app.get('/', function(req,res){
-  res.sendFile('/index.html');
+  res.sendFile(CWD + '/index.html');
 })
 
 app.use('/public', express.static('public'));
