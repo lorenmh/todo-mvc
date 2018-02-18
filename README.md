@@ -18,3 +18,12 @@
 1. User requests `/`
 2. Respond with `index.html`
 3. Then request JS / etc assets
+
+
+## TODOtodoS
+
+1. Add DB
+2. ToDo Models
+3. Sessions/Logins
+4. REST API
+5. Client SPA (React/Redux)
