@@ -7,4 +7,7 @@ app.get('/', function(req,res){
   res.send('hello world');
 })
 
+app.use('/public', express.static('public'));
+
+
 app.listen(PORT, function(){console.log('listening on '+ PORT)});
